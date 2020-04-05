@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragmentWeatherData">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorFragment"
+        app:cardCornerRadius="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/temperature_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="@string/temperature_select_day"
+
+                style="@style/font_fragment"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/temperature_data_select_day"/>
+
+            <TextView
+                android:id="@+id/temperature_data_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                style="@style/font_fragment"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="@+id/temperature_select_day"
+                app:layout_constraintTop_toBottomOf="@+id/temperature_select_day"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView
+                android:id="@+id/wind_speed_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/font_fragment"
+                android:layout_marginTop="4dp"
+                android:text="@string/wind_speed_select_day"
+                app:layout_constraintStart_toStartOf="@+id/pressure_data_select_day"
+                app:layout_constraintTop_toBottomOf="@+id/pressure_data_select_day" />
+
+            <TextView
+                android:id="@+id/wind_speed_data_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/font_fragment"
+                app:layout_constraintStart_toStartOf="@+id/wind_speed_select_day"
+                app:layout_constraintTop_toBottomOf="@id/wind_speed_select_day" />
+
+            <TextView
+                android:id="@+id/pressure_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/pressure_selected_day"
+                style="@style/font_fragment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/temperature_select_day"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pressure_data_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/font_fragment"
+                app:layout_constraintStart_toStartOf="@+id/pressure_select_day"
+                app:layout_constraintTop_toBottomOf="@id/pressure_select_day" />
+
+            <TextView
+                android:id="@+id/humidity_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/font_fragment"
+                android:text="@string/humidity_select_day"
+                app:layout_constraintStart_toStartOf="@+id/wind_speed_data_select_day"
+                app:layout_constraintTop_toBottomOf="@+id/wind_speed_data_select_day" />
+
+            <TextView
+                android:id="@+id/humidity_data_select_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/font_fragment"
+                app:layout_constraintStart_toStartOf="@+id/humidity_select_day"
+                app:layout_constraintTop_toBottomOf="@+id/humidity_select_day" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

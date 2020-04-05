@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="today">Today</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="city_saint_petersburg">Saint-Petersburg</string>
+    <string name="setting_button">setting</string>
+    <string name="temperature_select_day">Temperature</string>
+    <string name="wind_speed_select_day">Wind speed</string>
+    <string name="pressure_selected_day">Pressure</string>
+    <string name="humidity_select_day">Humidity</string>
+    <string name="enter_the_city_name_tip_edit_text">Enter the city name</string>
+
+    <string name="back_select_city_button">Back</string>
+    <string name="day_night_mode_setting_text_view">Day/Night mode</string>
+    <string name="setting_label">Setting</string>
+    <string name="sign_in_to_your_account_setting_button">sign in to your account</string>
+    <string name="do_you_know_button">Do you know?</string>
+    <string name="error_input_city_name">There is no such city</string>
+    <string name="home_bottom_navigation">Home</string>
+    <string name="title_activity_author" translatable="false">AuthorActivity</string>
+    <string name="bambino_grandi" translatable="false">Bambino Grandi</string>
+    <string name="developer">Developer</string>
+    <string name="ekaterenburg_select_city_radio_button">Yekaterinburg</string>
+    <string name="menu_search" translatable="false">Search</string>
+    <string name="to_browser">To Browser</string>
+
+    <string name="city_name_spb">Saint Petersburg</string>
+    <string name="city_name_rnd">Rostov-on-Don</string>
+    <string name="city_name_msc">Moscow</string>
+    <string name="city_name_ekb">Yekaterinburg</string>
+    <string name="city_name_perm">Perm</string>
+    <string name="city_name_kzn">Kazan</string>
+    <string name="city_name_tver">Tver</string>
+    <string name="city_name_tmv">Tambov</string>
+    <string name="city_name_astrakhan">Astrakhan</string>
+    <string name="city_name_nvrsk">Novorossiysk</string>
+    <string name="choose_button">Choose</string>
+    <string name="label_start_app" translatable="false">Hello! Please choose your city</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="temperature_data_of_sensor">Temperature data of sensor</string>
+</resources>

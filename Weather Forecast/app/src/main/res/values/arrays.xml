@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="weekday">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+        <item>@string/sunday</item>
+    </array>
+
+    <array name="city_items">
+        <item>@string/city_name_spb</item>
+        <item>@string/city_name_rnd</item>
+        <item>@string/city_name_msc</item>
+        <item>@string/city_name_ekb</item>
+        <item>@string/city_name_perm</item>
+        <item>@string/city_name_kzn</item>
+        <item>@string/city_name_tver</item>
+        <item>@string/city_name_tmv</item>
+        <item>@string/city_name_astrakhan</item>
+        <item>@string/city_name_nvrsk</item>
+    </array>
+</resources>

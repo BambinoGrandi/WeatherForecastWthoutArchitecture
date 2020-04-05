@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="back_select_city_button">Назад</string>
+    <string name="city_saint_petersburg">Санкт-Петербург</string>
+    <string name="day_night_mode_setting_text_view">Дневной / Ночной режим</string>
+    <string name="enter_the_city_name_tip_edit_text">Введите название города</string>
+    <string name="humidity_select_day">Влажность</string>
+    <string name="monday">Пн</string>
+    <string name="ekaterenburg_select_city_radio_button">Екатеринбург</string>
+    <string name="pressure_selected_day">Давление</string>
+    <string name="setting_button">Настройки</string>
+    <string name="setting_label">Настройки</string>
+    <string name="sign_in_to_your_account_setting_button">Войдите в учетную запсиь</string>
+    <string name="temperature_select_day">Температура</string>
+    <string name="today">Сегодня</string>
+    <string name="tuesday">Вт</string>
+    <string name="wednesday">Ср</string>
+    <string name="wind_speed_select_day">Скорость ветра</string>
+    <string name="do_you_know_button">А ты знаешь?</string>
+    <string name="friday">Пт</string>
+    <string name="saturday">Сб</string>
+    <string name="sunday">Вс</string>
+    <string name="thursday">Чт</string>
+    <string name="error_input_city_name">Такого города не сущесвует</string>
+    <string name="home_bottom_navigation">Домой</string>
+    <string name="developer">Разработчик</string>
+    <string name="to_browser">Браузер</string>
+    <string name="temperature_data_of_sensor">Данные темпертуры с датчиков</string>
+    <string name="choose_button">Выбрать</string>
+    <string name="city_name_astrakhan">Астрахань</string>
+    <string name="city_name_ekb">Екатеринбург</string>
+    <string name="city_name_kzn">Казань</string>
+    <string name="city_name_msc">Москва</string>
+    <string name="city_name_nvrsk">Новороссийск</string>
+    <string name="city_name_perm">Перьм</string>
+    <string name="city_name_rnd">Ростов-на-Дону</string>
+    <string name="city_name_spb">Санкт-Петербург</string>
+    <string name="city_name_tmv">Тамбов</string>
+    <string name="city_name_tver">Тверь</string>
+</resources>

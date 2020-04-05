@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_png"
+        android:title="@string/home_bottom_navigation"/>
+    <item
+        android:id="@+id/setting_button"
+        android:icon="@drawable/setting_png"
+        android:title="@string/setting_label"/>
+    <item
+        android:id="@+id/author"
+        android:icon="@drawable/info_png"
+        android:title="Author"/>
+</menu>

@@ -1,0 +1,22 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="grandi.bambino.myapplication.MainActivity">
+    <item
+        android:id="@+id/menu_setting"
+        android:orderInCategory="200"
+        android:title="@string/setting_button"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="100"
+        android:title="@string/menu_search"
+        android:icon="@drawable/baseline_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_to_browser"
+        android:orderInCategory="300"
+        android:title="@string/to_browser"
+        app:showAsAction="never"/>
+</menu>
